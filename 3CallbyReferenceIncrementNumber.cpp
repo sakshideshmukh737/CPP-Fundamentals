@@ -1,17 +1,22 @@
+/*
+This program increases the value of a number using call by reference.
+The original variable is changed because the function works on its reference.
+*/
 #include <iostream>
 using namespace std;
 
 // Function increments original variable
 void increment(int &x) {
-    x++;                // Increases original value
+// Increases original value
+    x++;               
 }
 
 int main() {
     int a = 10;
+// Reference passed
+    increment(a);       
 
-    increment(a);       // Reference passed
-
-    cout << a;          // Output: 11
-
+    cout << a;       
+   // Output: 11
     return 0;
 }
