@@ -3,9 +3,9 @@ using namespace std;
 
 // Function returns square of number
 int square(int x) {
-    return x * x;       // Uses local copy of x
+    // Uses local copy of x
+    return x * x;       
 }
-
 int main() {
     int a = 4;
 

@@ -3,14 +3,15 @@ using namespace std;
 
 // int &x is a reference to variable a
 void change(int &x) {
-    x = 100;            // Modifies original variable
+// Modifies original variable
+    x = 100;            
 }
 
 int main() {
     int a = 10;
 
-    change(a);          // Passing variable directly
-
+// Passing variable directly
+ change(a);          
     // Value of a is changed
     cout << "Value of a: " << a;
 
