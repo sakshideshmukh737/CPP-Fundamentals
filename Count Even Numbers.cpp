@@ -1,4 +1,8 @@
-Count Even Numbers
+/* 
+This program counts the number of even elements in an integer array.
+It uses a for loop and if condition to check each element and display the count.
+*/
+
 #include <iostream>
 using namespace std;
 

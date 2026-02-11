@@ -1,4 +1,8 @@
-//Assignment Operators
+/* 
+This program demonstrates compound assignment operators in C++.
+It updates the value of a variable using += and -= and displays the results.
+*/
+
 #include <iostream>
 using namespace std;
 

@@ -1,4 +1,8 @@
-Character Data Type (char)
+/* 
+This program demonstrates the use of a character variable in C++.
+It stores a single character and displays it using cout.
+*/
+
 #include <iostream>
 using namespace std;
 

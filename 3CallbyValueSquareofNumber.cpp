@@ -7,6 +7,7 @@ using namespace std;
 
 // Function returns square of number
 int square(int x) {
+    
 // Uses local copy of x
     return x * x;       
 }

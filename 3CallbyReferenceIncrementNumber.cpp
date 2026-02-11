@@ -17,6 +17,6 @@ int main() {
     increment(a);       
 
     cout << a;       
-   // Output: 11
+// Output: 11
     return 0;
 }

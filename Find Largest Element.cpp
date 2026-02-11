@@ -1,4 +1,8 @@
-Find Largest Element
+/* 
+This program finds the largest element in an integer array.
+It uses a for loop and if condition to compare elements and display the maximum.
+*/
+
 #include <iostream>
 using namespace std;
 

@@ -1,4 +1,8 @@
-//Arithmetic Operators
+/* 
+This program performs basic arithmetic operations on two numbers.
+It displays addition, subtraction, multiplication, division, and modulus.
+*/
+
 #include <iostream>
 using namespace std;
 

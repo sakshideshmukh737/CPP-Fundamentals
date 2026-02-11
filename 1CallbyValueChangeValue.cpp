@@ -1,22 +1,25 @@
-#include <iostream>      // Header file for input/output
+/* 
+This program demonstrates call by value in C++.
+The function works on a copy of the variable, so the original value of 'a' remains unchanged.
+*/
+
+// Header file for input/output
+#include <iostream>      
 using namespace std;
 
 // Function definition
 // int x receives a COPY of variable a
 void change(int x) {
-    x = 100;            // Changes only the local copy
+    x = 100;            
 }
 
 int main() {
-    int a = 10;         // Original variable
+    int a = 10;         
 
-    change(a);          // Passing value of a (copy)
+    change(a);         
 
-    // Original value remains unchanged
+// Original value remains unchanged
     cout << "Value of a: " << a;
 
-    return 0;           // End of program
+    return 0;           
 }
-
-
-

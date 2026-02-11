@@ -1,3 +1,8 @@
+/* 
+This program shows call by reference, where the function directly changes the original variable.
+The value of 'a' becomes 100 because the function works on its reference. 
+*/
+
 #include <iostream>
 using namespace std;
 
